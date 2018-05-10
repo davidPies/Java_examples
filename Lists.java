@@ -15,8 +15,9 @@ public class Lists {
 	public static void main(String[] args){
 		addList("ethan");
 		addList("david");
+		System.out.println(Planets.size()); // tells the list length
 		for(int planetListSize = 0; planetListSize < Planets.size(); planetListSize++){
-			System.out.println(planetListSize); // tells the list length (length is # of items minus 1)
+			System.out.println(planetListSize); // tells the the # of the item on the list (length is # of items minus 1)
 			System.out.println(getListItems(planetListSize)); // tells the names
 		}
 	}
