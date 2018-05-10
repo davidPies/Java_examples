@@ -1,4 +1,5 @@
-package Java_examples;
+// package Java_examples; //not used for test compilation
+// use  https://www.compilejava.net/  for compilation
 
 import java.util.*;
 
