@@ -16,7 +16,7 @@ public class Lists {
 	public static void main(String[] args){
 		addList("name_1");
 		for(int planetListSize = 0; planetListSize < Planets.size(); planetListSize++)
-			System.out.println(planetListSize); // tells the list length
+			System.out.println(planetListSize); // tells the list length (length is # of items minus 1)
 		System.out.println(addList_2("name_1"));
 	}
 }
