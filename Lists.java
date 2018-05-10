@@ -17,6 +17,6 @@ public class Lists {
 		addList("name_1");
 		for(int planetListSize = 0; planetListSize < Planets.size(); planetListSize++)
 			System.out.println(planetListSize);
-		System.out.println(addList_2("name_1"););
+		System.out.println(addList_2("name_1"));
 	}
 }
