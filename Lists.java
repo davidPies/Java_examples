@@ -9,13 +9,15 @@ public class Lists {
 	public static void addList(String s){ // essentially a command block
 		Planets.add(s);
 	}
-	public static String addList_2(String s){ // essentially a reporter block
-		return s;
+	public static String getListItems(int size){ // essentially a reporter block
+		return Planets.get(size);
 	}
 	public static void main(String[] args){
-		addList("name_1");
-		for(int planetListSize = 0; planetListSize < Planets.size(); planetListSize++)
+		addList("ethan");
+		addList("david");
+		for(int planetListSize = 0; planetListSize < Planets.size(); planetListSize++){
 			System.out.println(planetListSize); // tells the list length (length is # of items minus 1)
-		System.out.println(addList_2("name_1"));
+			System.out.println(getListItems(planetListSize)); // tells the names
+		}
 	}
 }
