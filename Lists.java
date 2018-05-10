@@ -10,6 +10,12 @@ public class Lists {
 	public static void addList(String s){ // essentially a command block
 		Names.add(s);
 	}
+	public static boolean checkSize(int size){ // essentially a predicate block
+		if(size < 0){
+		    return false;
+		}	
+		return true;
+	}
 	public static String getListItems(int size){ // essentially a reporter block
 		return Names.get(size);
 	}
