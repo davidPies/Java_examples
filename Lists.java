@@ -4,9 +4,8 @@ import java.util.*;
 
 public class Lists {
 	
-	public static List<String> Planets = new ArrayList<String>();
-	public Lists(){
-	}
+	public static List<String> Planets = new ArrayList<String>(); // the list
+	
 	public static void addList(String s){ // essentially a command block
 		Planets.add(s);
 	}
