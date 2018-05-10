@@ -28,8 +28,9 @@ public class Lists {
 		addList("david");
 		System.out.println("length = " + Names.size()); // tells the list length
 		for(int nametListSize = 0; nametListSize < Names.size(); nametListSize++){
-			System.out.println("item " + nametListSize + " of list"); // tells the the # of the item on the list (length is # of items minus 1)
+			System.out.println("item " + nametListSize + " of list"); // tells the the # of the item on the list
 			System.out.println(getListItems(nametListSize)); // tells the names
+
 		}
-	}
+    	}
 }
