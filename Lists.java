@@ -17,7 +17,11 @@ public class Lists {
 		return true;
 	}
 	public static String getListItems(int size){ // essentially a reporter block
-		return Names.get(size);
+		if(checkSize(size)){
+		    return Names.get(size);
+		}else{
+			return null;
+		}
 	}
 	public static void main(String[] args){
 		addList("ethan");
