@@ -32,5 +32,5 @@ public class Lists {
 			System.out.println(getListItems(nametListSize)); // tells the names
 
 		}
-    	}
+    }
 }
