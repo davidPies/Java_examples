@@ -1,7 +1,7 @@
 // package Java_examples; //not used for test compilation
 // use  https://www.compilejava.net/  for compilation
 
-import java.util.*; // imports the sources
+import java.util.*; // imports the sources (double backslashes, // , are comments)
 
 public class Lists { // creates the file name (brackets indicate a start and finish of classes and functions)
 	
